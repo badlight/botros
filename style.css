@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url(//fonts.googleapis.com/earlyaccess/notosanscoptic.css);
+
+html {
+  height: 102%;
+}
+
+h1 {
+  text-align: center;
+  color:  #333;
+  font-size: 50px;
+}
+
+body {
+  text-align: left;
+  font-family: 'Formata';
+  font-size: 22px;
+  background-color: white;
+  color: black;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+  color: grey;
+  font-size: 25px;
+}
+
+em {
+  color: grey;
+}
+
+.pic {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.big_pic{
+  border-bottom: 1px solid grey;
+  width: 762.5px;
+}
+
+.coin {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 256px;
+  border: 1px solid grey !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+
+}
+.coin:hover .overlay{
+  opacity: 0.75;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000;
+}
+
+.coin_page {
+  padding-bottom: 25px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 762.5px;
+  background-color: #EAEAEA;
+  border: 1px solid grey !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 25px
+}
+
+.images {
+  padding-bottom: 25px;
+  vertical-align: top;
+  margin: auto;
+  text-align: center;
+  width: 762.5px;
+  background-color: #EAEAEA;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 25px
+}
+
+.code {
+  display: block;
+  font-style: bold;
+  color: red;
+  font-size: 16px;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 100px; 
+  text-align: right;
+}
+
+.caption-title {
+  display: block;
+  font-style: bold;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.caption-subtitle {
+  display: block;
+  color: white;
+  font-size: 14px;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.caption-title-big {
+  display: block;
+  color: grey;
+  font-size: 18px;
+}
+
+.caption-subtitle-big {
+  display: block;
+  color: grey;
+  font-style: italic;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.caption-subtitle2 {
+  display: block;
+  color: grey;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.coin-title {
+  font-size: 30px;
+  color: #333;
+}
+
+.coin-subtitle {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: -30px;
+  color: red;
+}
+
+.description {
+  font-size: 20px;
+}
+
+
+#outer
+{
+  width:100%;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+.inner a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
+  -o-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+}
+
+.inner a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  -webkit-transition: background-color 0.25s ease-out;
+  -moz-transition: background-color 0.25s ease-out;
+  -o-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+
+.paragraph {
+  padding-bottom: 25px;
+  vertical-align: top;
+  margin: auto;
+  text-align: center;
+  width: 762.5px;
+  background-color: #333;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+
+.marginated {
+  margin-left: 100px; 
+  margin-right: 100px;
+  color: grey;
+}
+
+/*Image Modal*/
+
+#myImg {
+  cursor: pointer; 
+  transition: 0.25s;
+}
+
+#myImg:hover {opacity: 0.8;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 260px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 50px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0;} 
+    to { opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;} 
+    to { opacity: 1;}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 100%){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from { opacity: 1;} 
+    to { opacity: 0;}
+}
+
+@keyframes fadeOut {
+    from { opacity: 1;} 
+    to { opacity: 0;}
+}
+
+hr.style-one {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+hr.style-one:after {
+  content: '\2626';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-two {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+hr.style-two:after {
+  content: '\2627';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-three {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-three:after {
+  content: '\274A';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-five {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: grey;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-five:after {
+  content: '\2641';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-six {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: grey;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-six:after {
+  content: '\FF04';
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+hr.style-four {
+  height: 10px;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  width: 512px;
+  border-top: medium double #333;
+  color: grey;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.aligned {
+  text-align: justify; 
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#map {
+   width: 765px;
+   height: 400px;
+   background-color: white;
+   margin: auto;
+}
+
+.controlUI {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  margin-bottom: 22px;
+  text-align: center;
+}
+.controlText {
+  color: rgb(25,25,25);
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
